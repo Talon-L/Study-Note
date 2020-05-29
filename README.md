@@ -7,7 +7,7 @@ myObj.hasOwnProperty("top");
 // When adding object to an array:
 each object in the array should be seperated by cama ",".
 
-// Array Manipulate methonds；
+// Array Manipulate methonds:
 Add sth. to an array(at the end): arrayName.push();
 Add sth. to an array(at the begining): arrayName.unshift();
 delete sth. from arry(from the beginning): arrayName.shift();
