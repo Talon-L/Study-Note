@@ -45,3 +45,4 @@ const maximus = Math.max(...arr); // returns 89
 
 const spreaded = ...arr; // will throw a syntax error
   
+// When using the destruction method to change the stuff in the object, write the origional prop. name first, then ":", then the new name.
