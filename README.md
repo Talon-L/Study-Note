@@ -46,3 +46,13 @@ const maximus = Math.max(...arr); // returns 89
 const spreaded = ...arr; // will throw a syntax error
   
 // When using the destruction method to assign a new variable name to the stuff you just extracted from the origional object, write the origional prop. name first, then ":", then the new name you wish it will being called.
+
+
+
+
+aa.push(var)
+return aa
+&
+return aa.push(var)
+
+is no the same thing, when you have an inner function in a function which require the exact "aa" type of argunment to pass through, in that situation, "aa" & "aa.push(var)" is two complete different stuff. 
