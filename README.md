@@ -56,3 +56,11 @@ return aa
 return aa.push(var)
 
 is no the same thing, when you have an inner function in a function which require the exact "aa" type of argunment to pass through, in that situation, "aa" & "aa.push(var)" is two complete different stuff. 
+
+
+
+// slice() and splice():
+Try best to avoid using splice() since it mutated the original array which will casue numerous troubles....
+if only leave one number, it means the strated index; 
+if slice() got two numbers, the first number means the begin index, and the second number means the ending index, and left is included but not the right;
+if splice() got two numbers, the first menas the begin index, and the second one means the length of content you need to remove, and the third argument means the new stuff you wanna put in that array.
