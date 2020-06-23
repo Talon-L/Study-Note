@@ -64,3 +64,12 @@ Try best to avoid using splice() since it mutated the original array which will 
 if only leave one number, it means the strated index; 
 if slice() got two numbers, the first number means the begin index, and the second number means the ending index, and left is included but not the right;
 if splice() got two numbers, the first menas the begin index, and the second one means the length of content you need to remove, and the third argument means the new stuff you wanna put in that array.
+
+
+
+//
+Avoid using menthod like push() anymore, becasue this will mutated the original array! use concat instead.
+
+
+
+
